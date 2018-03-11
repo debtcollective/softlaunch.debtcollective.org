@@ -1,7 +1,6 @@
 <head>
   <!-- DC kit -->
-  <script type="text/javascript" src="https://use.typekit.net/fju1gby.js"></script>
-  <script type="text/javascript">try { Typekit.load(); } catch (e) { }</script>
+  <link rel="stylesheet" href="https://use.typekit.net/xxb4umf.css">
   <link rel="stylesheet" href="static/css/reset.css" />
   <link rel="stylesheet" href="static/css/base.css" />
   <link href='https://fonts.googleapis.com/css?family=Cutive+Mono|Raleway:500,100' rel='stylesheet' type='text/css'>
@@ -29,8 +28,6 @@
 </head>
 
 <body ng-app="myDebtIs">
-
-
   <div class="header-links hidden-mobile">
     <a href="index.html#scroll" du-scrollspy>story</a>
     &nbsp;&nbsp; | &nbsp;&nbsp;
@@ -116,14 +113,6 @@
 
             <img src="static/img/map-title-banner.png" class="map-banner mobile-only" />
             <div id="mapdiv" style="width: 100%; height: 500px;"></div>
-            <!-- <a class="twitter-timeline"
-           data-chrome="noheader nofooter noborders noscrollbar transparent"
-           href="https://twitter.com/hashtag/notaloan"
-           data-link-color="#666" width="250px"
-           data-border-color="#333"
-           height="350px" data-widget-id="511729525797814272">
-            #notaloan Tweets
-           </a>-->
           </div>
           <div class="body-text anchor map-body">
             <div class="debt-total">$32,971,356</div>
@@ -302,11 +291,12 @@
 
 
   <!-- angular -->
-  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.7/angular.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.7/angular-cookies.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.7/angular-animate.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.7/angular.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.7/angular-cookies.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angularjs/1.2.7/angular-animate.min.js"></script>
   <!--<script>window.angular || document.write('<script src="/static/js/angular-min.js"><\/script><script src="/static/js/angular-cookies.min.js"><\/script><script src="/static/js/vendor/angular-animate.min.js"></script>')</script>-->
-  <script src="static/js/vendor/angular-scroll.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-scroll/1.0.2/angular-scroll.js"></script>
+  <!-- <script src="static/js/vendor/angular-scroll.min.js"></script> -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.4.11/d3.min.js"></script>
   <script src="static/js/debtis.js" type="text/javascript"></script>
   <script src="static/js/util.js" type="text/javascript"></script>
