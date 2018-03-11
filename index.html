@@ -1,0 +1,327 @@
+<head>
+  <!-- DC kit -->
+  <script type="text/javascript" src="http://use.typekit.net/fju1gby.js"></script>
+  <script type="text/javascript">try { Typekit.load(); } catch (e) { }</script>
+  <link rel="stylesheet" href="static/css/reset.css" />
+  <link rel="stylesheet" href="static/css/base.css" />
+  <link href='http://fonts.googleapis.com/css?family=Cutive+Mono|Raleway:500,100' rel='stylesheet' type='text/css'>
+  <link rel="icon" type="image/ico" href="static/img/favicon.ico">
+  <meta charset="UTF-8">
+  <title>The Debt Collective: Organize, Resist, Reimagine</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="We are debtors and allies organizing to renegotiate and resist our debts. Alone, our debts are a burden. Together, they make us powerful.">
+  <meta name="keywords" content="Debt,Student loans,Everest,Corinthian,Student Debt,Medical Debt,Credit Card Debt,Mortgage Debt,Bankruptcy,Debt discharge,Debt cancellation,Erase my debt,Jubilee,Strike Debt,Confused about debt,Rolling Jubilee,Interest rates,Principle reduction,What happens if I don’t pay my debt?,Judgement Debt,Bad Credit,Credit Score,Credit Report,Credit Reporting Agencies,Can’t Pay My Debt,Debt strike,Debt union,Credit cards,Fair credit,Wages garnished,Consumer rights,Strike creditors,Debt refusal,Debt resistance">
+
+  <meta property="og:title" content="The Debt Collective: Organize, Resist" />
+  <meta property="og:type" content="article" />
+  <meta property="og:image" content="/static/img/socialmedia_reportersdescribe.png" />
+  <meta property="og:url" content="http://debtcollective.org" />
+  <meta property="og:description" content="We are debtors and allies organizing to renegotiate and resist our debts. Alone, our debts are a burden. Together, they make us powerful."
+  />
+
+  <!-- for Twitter -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="The Debt Collective: Organize, Resist, Reimagine" />
+  <meta name="twitter:description" content="We are debtors and allies organizing to renegotiate and resist our debts. Alone, our debts are a burden. Together, they make us powerful."
+  />
+  <meta name="twitter:image" content="/static/img/socialmedia_reportersdescribe.png" />
+
+</head>
+
+<body ng-app="myDebtIs">
+
+
+  <div class="header-links hidden-mobile">
+    <a href="index.html#scroll" du-scrollspy>story</a>
+    &nbsp;&nbsp; | &nbsp;&nbsp;
+    <a href="index.html#learn" ng-click="learnMore=true" du-scrollspy du-smooth-scroll>information</a>
+    &nbsp;&nbsp; | &nbsp;&nbsp;
+    <a href="http://blog.debtcollective.org" du-scrollspy>dispatch</a>
+  </div>
+
+  <div scroll>
+    <div id="scroll" ng-controller="splashCtrl" ng-class="{mainstate: yLoc >= amountToScroll}">
+      <div id="scrollthing" ng-style="scrollThingStyle" style="max-height: 2000px">
+      </div>
+      <section id="splash" class="splash" ng-class="{hidden: yLoc > 5}">
+        <div class="splash-text">
+          <h1>Organize, Resist, Reimagine</h1>
+        </div>
+        <div class="splash-footer" ng-click="scrollClick()">
+          scroll to begin
+        </div>
+      </section>
+
+      <section class="images" ng-style="backgroundStyle" ng-class="{close: yLoc >= 2700}">
+        <!-- for each range, display the appropriate animation. change in directives.js -->
+        <div ng-class="{pane: yLoc == 0}">
+          <div class="splash-square red"></div>
+        </div>
+        <div ng-repeat="range in ranges" ng-class="{pane: yLoc > range.yScroll && yLoc < range.yScrollEnd}">
+          <img class="splash-square" ng-src="/static/img/animation/transitional-support-{$range.num$}.png" />
+        </div>
+      </section>
+
+      <div class="wrapper light">
+        <section class="intro-text">
+          <div class="body-text">
+            <div class="slide">
+              <span ng-class="{pane: yLoc > 0 && yLoc <= 600}">
+                Every month, we are forced into debt for basic necessities.
+              </span>
+              <span ng-class="{pane: yLoc > 200 && yLoc <= 600}">
+                We have no choice but to enter into contracts under unfair terms.
+              </span>
+              <span ng-class="{pane: yLoc > 400 && yLoc <= 600}">
+                We have little power to bargain or negotiate.
+              </span>
+            </div>
+            <div class="slide">
+              <span ng-class="{pane: yLoc > 600 && yLoc <= 1200}">
+                Creditors are holding us hostage.
+              </span>
+              <span ng-class="{pane: yLoc > 800 && yLoc <= 1200}">
+                When we can’t meet the terms of the contract, we are harassed,
+              </span>
+              <span ng-class="{pane: yLoc > 1000 && yLoc <= 1200}">
+                we have our wages garnished, and some of us are even imprisoned.
+              </span>
+            </div>
+            <div class="slide">
+              <span ng-class="{pane: yLoc > 1200 && yLoc <= 1600}">
+                The goal of the Debt Collective is to fight back
+              </span>
+              <span ng-class="{pane: yLoc > 1400 && yLoc <= 1600}">
+                and transform the way we finance basic necessities, such as education, health care, and housing.
+              </span>
+            </div>
+            <div class="slide">
+              <span ng-class="{pane: yLoc > 1600 && yLoc <= 2800}">
+                If you owe the bank thousands of dollars, then the bank owns you.
+              </span>
+              <span ng-class="{pane: yLoc > 1800 && yLoc <= 2800}">
+                But if you owe the bank millions, then you own the bank.
+              </span>
+              <span ng-class="{pane: yLoc > 2000 && yLoc <= 2800}">
+                Collectively, we own the bank.
+              </span>
+            </div>
+          </div>
+        </section>
+        <section id="learn">
+          <div id="map" class="map-container" ng-controller="mapCtrl">
+
+            <img src="static/img/dcnew_key.png" class="legend" />
+            <img src="static/img/dcnew_compass.png" class="compassrose" />
+
+            <img src="static/img/map-title-banner.png" class="map-banner mobile-only" />
+            <div id="mapdiv" style="width: 100%; height: 500px;"></div>
+            <!-- <a class="twitter-timeline"
+           data-chrome="noheader nofooter noborders noscrollbar transparent"
+           href="https://twitter.com/hashtag/notaloan"
+           data-link-color="#666" width="250px"
+           data-border-color="#333"
+           height="350px" data-widget-id="511729525797814272">
+            #notaloan Tweets
+           </a>-->
+          </div>
+          <div class="body-text anchor map-body">
+            <div class="debt-total">$32,971,356</div>
+            <div class="title-banner hidden-mobile">
+              <img src="static/img/map-title-banner.png" class="map-banner" />
+            </div>
+            <p>Every month, we are forced into debt for basic necessities. We have no choice but to enter into contracts under
+              unfair terms. We have little power to bargain or negotiate. Creditors are holding us hostage. When we can’t
+              meet the terms of the contract, we are harassed, we have our wages garnished, and some of us are even imprisoned.
+              The goal of the Debt Collective is to fight back and transform how basic necessities, such as education, health
+              care, and housing are provided.
+            </p>
+            <h2>Why Join
+              <span>the Debt Collective?</span>
+            </h2>
+            <p>Creditors profit from the data they have about our loans. We all owe, but we aren’t always sure who really profits
+              from our loan payments. Who is at the end of that paper trail?
+            </p>
+
+            <p>
+              We can learn where our money goes and who is profiting from those payments. We can also learn who stands to lose when we
+              don’t pay. This kind of knowledge could help us work together to renegotiate our payments or even demand the
+              cancellation of illegitimate debts.
+            </p>
+
+            <p>
+              You are not a loan. Join Us.
+            </p>
+            </p>
+            <h2>What can a Debt Collective Do?</h2>
+            <p>
+              The goal of the Debt Collective is to create a platform by debtors and for debtors for organization, advocacy, and resistance.
+              Organizing collectively offers many possibilities for building power against creditors:
+            </p>
+            <p>
+              As we build membership, we can organize debtors into groups based on region, type of debt, or institution. These groups can
+              bargain with creditors or even develop the power to threaten a debt strike. A debt collective can help create
+              a positive vision for a sustainable economy in which credit would be used to benefit everyone and not to line
+              the pockets of a few.
+            </p>
+          </div>
+          <section class="body-text" id="background">
+            <h2>Background: Who we are</h2>
+
+            <p>
+              We are the people behind the
+              <a href="http://rollingjubilee.org" target="_blank">Rolling Jubilee debt cancellation initiative</a>. We operate according to the principle that individual debts
+              are a burden, but when we stand together they make us powerful. The Debt Collective is the next step in making
+              that vision a reality.
+            </p>
+
+            <p>
+              <div class="press-links">
+                <a href="http://www.washingtonpost.com/news/storyline/wp/2014/09/17/how-one-student-got-burned-by-a-for-profit-college-and-bailed-out-by-occupy-wall-street/"
+                  target="_blank">
+                  <img src="static/img/press/wash-pressbtn.jpg" />
+                </a>
+                <a href="http://america.aljazeera.com/opinions/2014/9/strike-student-debt.html" target="_blank">
+                  <img src="static/img/press/AJ-pressbtn.jpg" />
+                </a>
+                <a href="http://www.theguardian.com/money/2014/sep/17/occupy-activists-student-debt-corinthian-colleges" target="_blank">
+                  <img src="static/img/press/guard-pressbtn.jpg" />
+                </a>
+              </div>
+            </p>
+
+            <h2>Twitter Bomb!</h2>
+            <a href="https://twitter.com/intent/tweet?text=
+            When%20we%20defend%20Everest%20students%2C%20we%20fight%20for%20all%20students.%20Debtors%20must%20act%20together.%20%40USedgov%20whose%20side%20are%20you%20on%3F%20%23Nov4%20%23DebtTrap">
+              <div class="tweet-btn">
+                When we defend #Everest students, we fight for ALL students. Debtors must act together. @USedgov whose side are you on? #DebtTrap
+              </div>
+            </a>
+            <a href="https://twitter.com/intent/tweet?text=To%20the%20DoE%20I%27m%20just%20a%20number%3A%20________.%20We%20need%20to%20fight%20back%2C%20we%20are%20all%20in%20the%20red.%20%23NotAoan%20http%2F%2Fdebtcollective.org">
+              <div class="tweet-btn">
+                To the DoE I'm just a number: ________. We need to fight back, we are ALL in the red. #NotALoan </div>
+            </a>
+            <a href="https://twitter.com/intent/tweet?text=So%2C%20%40USedgov%20could%20fund%20%23HigherEd%20for%20all%20using%20less%20than%201%25%20of%20the%20Federal%20Budget. http%3A%2F%2Fstrikedebt.org%2Fhow-far-to-free%2F">
+              <div class="tweet-btn">
+                So, @USedgov could fund #HigherEd for all using less than 1% of the Federal Budget.
+              </div>
+            </a>
+            <a href="https://twitter.com/intent/tweet?text=End%20the%20love%20affair%20with%20for-profit%20colleges.%20%40USedgov%2C%20break%20up%20with%20Everest%20and%20cancel%20student%20debt.%20%23HigherEd">
+              <div class="tweet-btn">
+                End the love affair with for-profit colleges. @USedgov, break up with Everest and cancel student debt. #HigherEd
+              </div>
+            </a>
+            </p>
+
+            <h2> Change your Profile Picture</h2>
+            <p class="centered">
+              Put a red square in your social media profile picture.
+              <a class="underline" href="http://en.wikipedia.org/wiki/2012_Quebec_student_protests" target="_blank">What's the red square?</a>
+            </p>
+            <p class="centered">
+              <script src="http://twibbon.com/embed/debt-collective" type="text/javascript">
+              </script>
+              <a href="https://twibbon.com/Support/debt-collective">
+                <img src="static/img/ange.jpg" width="200px" />
+              </a>
+            </p>
+            <h2>Find us on social media</h2>
+            <p class="centered">
+              <a href="https://www.facebook.com/DebtCollective" target="_blank">
+                <img class="sm-button" src="static/img/dc_newfacebookbttn.png" />
+              </a>
+              <a href="http://www.twitter.com/0debtzone" target="_blank">
+                <img class="sm-button" src="static/img/dc_twitterbttn.png" />
+              </a>
+            </p>
+
+          </section>
+        </section>
+
+      </div>
+      <section class="splash splash-bottom-quote">
+        <h1 class="quote">
+          “Just as bosses are dependent on workers, so are lenders dependent on borrowers. If workers walk out, the enterprise stops.
+          If borrowers refuse to pay their debts, the lenders could be in real trouble.”
+          <br>
+          <br>Francis Fox Piven
+        </h1>
+      </section>
+    </div>
+
+  </div>
+
+
+  <script>!function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https'; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = p + '://platform.twitter.com/widgets.js'; fjs.parentNode.insertBefore(js, fjs); } }(document, 'script', 'twitter-wjs');</script>
+  <script>
+    window.fbAsyncInit = function () {
+      FB.init({
+        appId: '1483700951894498',
+        xfbml: true,
+        version: 'v2.1'
+      });
+    };
+
+    (function (d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) { return; }
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  </script>
+  <!-- Google Analytics -->
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date(); a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-54926002-1', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+  <!-- End Google Analytics -->
+  <div id="fb-root"></div>
+  <script>(function (d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=1483700951894498&version=v2.0";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+  <!-- end facebook sdk -->
+
+  <script>!function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https'; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = p + "://platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs); } }(document, "script", "twitter-wjs");</script>
+  <!-- twitter widgets -->
+
+  <script type="text/javascript">(function () { var e = document.createElement('script'); e.type = 'text/javascript'; e.async = true; e.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://btn.createsend1.com/js/sb.min.js?v=3'; e.className = 'createsend-script'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(e, s); })();</script>
+  <!-- create send -->
+
+
+  <!-- angular -->
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.7/angular.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.7/angular-cookies.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.7/angular-animate.min.js"></script>
+  <!--<script>window.angular || document.write('<script src="/static/js/angular-min.js"><\/script><script src="/static/js/angular-cookies.min.js"><\/script><script src="/static/js/vendor/angular-animate.min.js"></script>')</script>-->
+  <script src="static/js/vendor/angular-scroll.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/d3/3.4.11/d3.min.js"></script>
+  <script src="static/js/debtis.js" type="text/javascript"></script>
+  <script src="static/js/util.js" type="text/javascript"></script>
+  <script src="static/js/directives.js" type="text/javascript"></script>
+  <script src="static/js/filters.js" type="text/javascript"></script>
+
+  <script src="static/js/splashCtrl.js" type="text/javascript"></script>
+
+  <!-- angular-bootstrap -->
+  <script src="static/js/vendor/ui-bootstrap-custom-0.10.0.min.js" type="text/javascript"></script>
+  <script src="static/js/vendor/ui-bootstrap-custom-tpls-0.10.0.min.js" type="text/javascript"></script>
+
+  <!-- maps -->
+  <script src="static/js/vendor/ammap/ammap.js"></script>
+  <script src="static/js/vendor/ammap/maps/js/worldHigh.js" type="text/javascript"></script>
+  <script src="static/js/maps/debtMap.js" type="text/javascript"></script>
+
+</body>

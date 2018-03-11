@@ -1,0 +1,777 @@
+[
+  {
+    "latitude": 40.7305993,
+    "id": 1,
+    "name": "New York",
+    "longitude": -73.9865813
+  },
+  {
+    "latitude": 34.0502836,
+    "id": 2,
+    "name": "Los Angeles",
+    "longitude": -118.2420861
+  },
+  {
+    "latitude": 41.8756208,
+    "id": 3,
+    "name": "Chicago",
+    "longitude": -87.6243706
+  },
+  {
+    "latitude": 39.7683795,
+    "id": 4,
+    "name": "Indianapolis",
+    "longitude": -86.1580447
+  },
+  {
+    "latitude": 38.2542386,
+    "id": 5,
+    "name": "Louisville",
+    "longitude": -85.7594075
+  },
+  {
+    "latitude": 41.6833813,
+    "id": 6,
+    "name": "South Bend",
+    "longitude": -86.2500066
+  },
+  {
+    "latitude": 30.1600827,
+    "id": 7,
+    "name": "Panama City",
+    "longitude": -85.6545729
+  },
+  {
+    "latitude": 28.5421175,
+    "id": 8,
+    "name": "Orlando",
+    "longitude": -81.3790462
+  },
+  {
+    "latitude": 25.7742658,
+    "id": 9,
+    "name": "Miami",
+    "longitude": -80.1936589
+  },
+  {
+    "latitude": 41.0799898,
+    "id": 10,
+    "name": "Fort Wayne",
+    "longitude": -85.1386015
+  },
+  {
+    "latitude": 39.7989763,
+    "id": 11,
+    "name": "Springfield",
+    "longitude": -89.6443688
+  },
+  {
+    "latitude": 39.4667025,
+    "id": 12,
+    "name": "Terre Haute",
+    "longitude": -87.4139119
+  },
+  {
+    "latitude": 39.9622601,
+    "id": 13,
+    "name": "Columbus",
+    "longitude": -83.0007065
+  },
+  {
+    "latitude": 27.9475216,
+    "id": 14,
+    "name": "Tampa",
+    "longitude": -82.4584279
+  },
+  {
+    "latitude": 39.1014564,
+    "id": 15,
+    "name": "Cincinnati",
+    "longitude": -84.5138592
+  },
+  {
+    "latitude": 25.7881436,
+    "id": 16,
+    "name": "Miami Beach",
+    "longitude": -80.1272705
+  },
+  {
+    "latitude": 51.5072759,
+    "id": 17,
+    "name": "London",
+    "longitude": -0.1276597
+  },
+  {
+    "latitude": -41.2870685,
+    "id": 18,
+    "name": "Wellington",
+    "longitude": 174.7810335
+  },
+  {
+    "latitude": 51.0623551,
+    "id": 19,
+    "name": "Winchester",
+    "longitude": -1.3140919
+  },
+  {
+    "latitude": 32.3668052,
+    "id": 20,
+    "name": "Montgomery",
+    "longitude": -86.2999689
+  },
+  {
+    "latitude": 43.1572851,
+    "id": 21,
+    "name": "Rochester",
+    "longitude": -77.6152141
+  },
+  {
+    "latitude": 37.541239,
+    "id": 22,
+    "name": "Richmond",
+    "longitude": -77.4420183
+  },
+  {
+    "latitude": 41.5910641,
+    "id": 23,
+    "name": "Des Moines",
+    "longitude": -93.6037149
+  },
+  {
+    "latitude": 51.7521553,
+    "id": 24,
+    "name": "Oxford",
+    "longitude": -1.2582135
+  },
+  {
+    "latitude": 41.8239891,
+    "id": 25,
+    "name": "Providence",
+    "longitude": -71.4128343
+  },
+  {
+    "latitude": 32.2990384,
+    "id": 26,
+    "name": "Jackson",
+    "longitude": -90.1847691
+  },
+  {
+    "latitude": 41.1670412,
+    "id": 27,
+    "name": "Bridgeport",
+    "longitude": -73.2048348
+  },
+  {
+    "latitude": 43.1932336,
+    "id": 28,
+    "name": "Paris",
+    "longitude": -80.3842807
+  },
+  {
+    "latitude": 10.1424373,
+    "id": 29,
+    "name": "Barcelona",
+    "longitude": -64.6789015
+  },
+  {
+    "latitude": 40.4167047,
+    "id": 30,
+    "name": "Madrid",
+    "longitude": -3.7035825
+  },
+  {
+    "latitude": 43.5298424,
+    "id": 31,
+    "name": "Aix-en-Provence",
+    "longitude": 5.4474738
+  },
+  {
+    "latitude": 47.4983377,
+    "id": 32,
+    "name": "Budapest",
+    "longitude": 19.0404712
+  },
+  {
+    "latitude": 39.7589478,
+    "id": 33,
+    "name": "Dayton",
+    "longitude": -84.1916069
+  },
+  {
+    "latitude": 32.0835407,
+    "id": 34,
+    "name": "Savannah",
+    "longitude": -81.0998342
+  },
+  {
+    "latitude": 27.0997775,
+    "id": 35,
+    "name": "Venice",
+    "longitude": -82.4542633
+  },
+  {
+    "latitude": 52.5170397,
+    "id": 36,
+    "name": "Berlin",
+    "longitude": 13.3888548
+  },
+  {
+    "latitude": 34.0930855,
+    "id": 37,
+    "name": "Alhambra",
+    "longitude": -118.1279002
+  },
+  {
+    "latitude": 34.1438396,
+    "id": 38,
+    "name": "Pasadena",
+    "longitude": -118.1290095
+  },
+  {
+    "latitude": 34.1819538,
+    "id": 39,
+    "name": "Burbank",
+    "longitude": -118.3079649
+  },
+  {
+    "latitude": 39.952335,
+    "id": 40,
+    "name": "Philadelphia",
+    "longitude": -75.163789
+  },
+  {
+    "latitude": 34.1420882,
+    "id": 41,
+    "name": "Glendale",
+    "longitude": -118.25057
+  },
+  {
+    "latitude": -33.8548157,
+    "id": 42,
+    "name": "Sydney",
+    "longitude": 151.2164539
+  },
+  {
+    "latitude": -22.9112163,
+    "id": 43,
+    "name": "Rio de Janeiro",
+    "longitude": -43.2093781
+  },
+  {
+    "latitude": -15.7941878,
+    "id": 44,
+    "name": "Bras\u00edlia",
+    "longitude": -47.8827491
+  },
+  {
+    "latitude": 51.4580216,
+    "id": 45,
+    "name": "Reading",
+    "longitude": -0.9673727
+  },
+  {
+    "latitude": 50.9035305,
+    "id": 46,
+    "name": "Southampton",
+    "longitude": -1.4041996
+  },
+  {
+    "latitude": 37.9577016,
+    "id": 47,
+    "name": "Stockton",
+    "longitude": -121.2907796
+  },
+  {
+    "latitude": 33.4483772,
+    "id": 48,
+    "name": "Phoenix",
+    "longitude": -112.0740374
+  },
+  {
+    "latitude": 36.6002379,
+    "id": 49,
+    "name": "Monterey",
+    "longitude": -121.8946762
+  },
+  {
+    "latitude": 34.0633443,
+    "id": 50,
+    "name": "Ontario",
+    "longitude": -117.6508876
+  },
+  {
+    "latitude": 32.7801052,
+    "id": 51,
+    "name": "Dallas",
+    "longitude": -96.8000082
+  },
+  {
+    "latitude": 37.7789601,
+    "id": 52,
+    "name": "San Francisco",
+    "longitude": -122.419199
+  },
+  {
+    "latitude": 32.7469748,
+    "id": 53,
+    "name": "San Diego",
+    "longitude": -117.2118132
+  },
+  {
+    "latitude": 30.2674473,
+    "id": 54,
+    "name": "Austin",
+    "longitude": -97.7425618
+  },
+  {
+    "latitude": 38.0464066,
+    "id": 55,
+    "name": "Lexington",
+    "longitude": -84.4970393
+  },
+  {
+    "latitude": 30.3321838,
+    "id": 56,
+    "name": "Jacksonville",
+    "longitude": -81.655651
+  },
+  {
+    "latitude": 42.3316454,
+    "id": 57,
+    "name": "Detroit",
+    "longitude": -83.0466755
+  },
+  {
+    "latitude": 44.5299412,
+    "id": 58,
+    "name": "Green Bay",
+    "longitude": -88.0248317
+  },
+  {
+    "latitude": 43.3842987,
+    "id": 59,
+    "name": "Cambridge",
+    "longitude": -80.3098064
+  },
+  {
+    "latitude": 36.8468146,
+    "id": 60,
+    "name": "Norfolk",
+    "longitude": -76.2852183
+  },
+  {
+    "latitude": 43.074761,
+    "id": 61,
+    "name": "Madison",
+    "longitude": -89.3837613
+  },
+  {
+    "latitude": 45.4210328,
+    "id": 62,
+    "name": "Ottawa",
+    "longitude": -75.6900219
+  },
+  {
+    "latitude": 41.4877262,
+    "id": 63,
+    "name": "Cleveland",
+    "longitude": -81.677522
+  },
+  {
+    "latitude": 31.7600372,
+    "id": 64,
+    "name": "El Paso",
+    "longitude": -106.487287
+  },
+  {
+    "latitude": 43.6529206,
+    "id": 65,
+    "name": "Toronto",
+    "longitude": -79.3849008
+  },
+  {
+    "latitude": 53.3492787,
+    "id": 66,
+    "name": "Dublin",
+    "longitude": -6.2611661
+  },
+  {
+    "latitude": 49.2499987,
+    "id": 67,
+    "name": "Vancouver",
+    "longitude": -123.1333301
+  },
+  {
+    "latitude": 42.3604823,
+    "id": 68,
+    "name": "Boston",
+    "longitude": -71.0595678
+  },
+  {
+    "latitude": 36.145204,
+    "id": 69,
+    "name": "Las Vegas",
+    "longitude": -115.1611806
+  },
+  {
+    "latitude": 39.2810502,
+    "id": 71,
+    "name": "Baltimore",
+    "longitude": -76.567903
+  },
+  {
+    "latitude": 35.4896803,
+    "id": 72,
+    "name": "Oklahoma City",
+    "longitude": -97.5320836
+  },
+  {
+    "latitude": 36.1949274,
+    "id": 73,
+    "name": "Nashville",
+    "longitude": -86.7417714
+  },
+  {
+    "latitude": 39.7391536,
+    "id": 74,
+    "name": "Denver",
+    "longitude": -104.9847034
+  },
+  {
+    "latitude": 47.5992959,
+    "id": 75,
+    "name": "Seattle",
+    "longitude": -122.3288811
+  },
+  {
+    "latitude": 38.8338816,
+    "id": 76,
+    "name": "Colorado Springs",
+    "longitude": -104.8213634
+  },
+  {
+    "latitude": 35.0841034,
+    "id": 77,
+    "name": "Albuquerque",
+    "longitude": -106.6509851
+  },
+  {
+    "latitude": 35.1495343,
+    "id": 78,
+    "name": "Memphis",
+    "longitude": -90.0489801
+  },
+  {
+    "latitude": 38.8951148,
+    "id": 79,
+    "name": "Washington",
+    "longitude": -77.0363716
+  },
+  {
+    "latitude": 43.0349931,
+    "id": 80,
+    "name": "Milwaukee",
+    "longitude": -87.922497
+  },
+  {
+    "latitude": 38.5815719,
+    "id": 81,
+    "name": "Sacramento",
+    "longitude": -121.4943996
+  },
+  {
+    "latitude": 32.2217429,
+    "id": 82,
+    "name": "Tucson",
+    "longitude": -110.926479
+  },
+  {
+    "latitude": 33.7776499,
+    "id": 83,
+    "name": "Long Beach",
+    "longitude": -118.1875049
+  },
+  {
+    "latitude": 39.0994728,
+    "id": 84,
+    "name": "Kansas City",
+    "longitude": -94.5813298
+  },
+  {
+    "latitude": 35.772096,
+    "id": 85,
+    "name": "Raleigh-Durham",
+    "longitude": -78.6386145
+  },
+  {
+    "latitude": 38.029306,
+    "id": 86,
+    "name": "Charlottesville",
+    "longitude": -78.4766781
+  },
+  {
+    "latitude": 39.3642852,
+    "id": 87,
+    "name": "Atlantic City",
+    "longitude": -74.4229351
+  },
+  {
+    "latitude": 36.1545486,
+    "id": 88,
+    "name": "Tulsa",
+    "longitude": -95.9906783
+  },
+  {
+    "latitude": 41.2587317,
+    "id": 89,
+    "name": "Omaha",
+    "longitude": -95.9378732
+  },
+  { "latitude": 31.549333, "id": 90, "name": "Waco", "longitude": -97.1466695 },
+  {
+    "latitude": 44.9772995,
+    "id": 91,
+    "name": "Minneapolis",
+    "longitude": -93.2654692
+  },
+  {
+    "latitude": 29.9499323,
+    "id": 92,
+    "name": "New Orleans",
+    "longitude": -90.0701156
+  },
+  {
+    "latitude": 35.3713431,
+    "id": 93,
+    "name": "Bakersfield",
+    "longitude": -119.0219428
+  },
+  {
+    "latitude": 42.2681569,
+    "id": 94,
+    "name": "Ann Arbor",
+    "longitude": -83.7312291
+  },
+  {
+    "latitude": 43.0171773,
+    "id": 95,
+    "name": "Flint",
+    "longitude": -83.7236024
+  },
+  {
+    "latitude": 35.6869752,
+    "id": 96,
+    "name": "Santa Fe",
+    "longitude": -105.9377991
+  },
+  {
+    "latitude": 39.729432,
+    "id": 97,
+    "name": "Aurora",
+    "longitude": -104.8319196
+  },
+  {
+    "latitude": 38.5767026,
+    "id": 98,
+    "name": "Jefferson City",
+    "longitude": -92.1735165
+  },
+  {
+    "latitude": 41.5236436,
+    "id": 99,
+    "name": "Davenport",
+    "longitude": -90.5776368
+  },
+  {
+    "latitude": 26.3013982,
+    "id": 100,
+    "name": "Edinburg",
+    "longitude": -98.1624501
+  },
+  {
+    "latitude": 40.3014316,
+    "id": 101,
+    "name": "Havana",
+    "longitude": -90.0633625
+  },
+  {
+    "latitude": 41.6611277,
+    "id": 102,
+    "name": "Iowa City",
+    "longitude": -91.5301683
+  },
+  {
+    "latitude": 38.6264972,
+    "id": 103,
+    "name": "Saint Louis",
+    "longitude": -90.1993244
+  },
+  {
+    "latitude": 32.735687,
+    "id": 104,
+    "name": "Arlington",
+    "longitude": -97.1080656
+  },
+  {
+    "latitude": 33.9533546,
+    "id": 105,
+    "name": "Riverside",
+    "longitude": -117.3961623
+  },
+  {
+    "latitude": 36.0726355,
+    "id": 106,
+    "name": "Greensboro",
+    "longitude": -79.7919754
+  },
+  {
+    "latitude": 40.735657,
+    "id": 107,
+    "name": "Newark",
+    "longitude": -74.1723667
+  },
+  {
+    "latitude": 27.506407,
+    "id": 108,
+    "name": "Laredo",
+    "longitude": -99.5075421
+  },
+  {
+    "latitude": 39.5295269,
+    "id": 109,
+    "name": "Reno",
+    "longitude": -119.813779
+  },
+  {
+    "latitude": 59.9132694,
+    "id": 111,
+    "name": "Oslo",
+    "longitude": 10.7391111
+  },
+  {
+    "latitude": 38.7128335,
+    "id": 112,
+    "name": "Lisboa",
+    "longitude": -9.1328948
+  },
+  {
+    "latitude": 43.6112423,
+    "id": 113,
+    "name": "Montpellier",
+    "longitude": 3.8767336
+  },
+  {
+    "latitude": 45.5224507,
+    "id": 114,
+    "name": "Montr\u00e9al",
+    "longitude": -73.5912827
+  },
+  {
+    "latitude": 18.549274,
+    "id": 115,
+    "name": "Port-au-Prince",
+    "longitude": -72.3393295
+  },
+  {
+    "latitude": 33.899327,
+    "id": 116,
+    "name": "Beirut - \u0628\u064a\u0631\u0648\u062a",
+    "longitude": 35.4690289
+  },
+  {
+    "latitude": 19.4325305,
+    "id": 117,
+    "name": "Ciudad de M\u00e9xico",
+    "longitude": -99.1332104
+  },
+  {
+    "latitude": 43.615046,
+    "id": 118,
+    "name": "Boise",
+    "longitude": -116.2044429
+  },
+  {
+    "latitude": 39.0490111,
+    "id": 119,
+    "name": "Topeka",
+    "longitude": -95.6775557
+  },
+  {
+    "latitude": 30.4507462,
+    "id": 120,
+    "name": "Baton Rouge",
+    "longitude": -91.154551
+  },
+  {
+    "latitude": 44.9553658,
+    "id": 121,
+    "name": "Saint Paul",
+    "longitude": -93.1022043
+  },
+  {
+    "latitude": 33.7490987,
+    "id": 122,
+    "name": "Atlanta",
+    "longitude": -84.3901849
+  },
+  {
+    "latitude": 37.6390972,
+    "id": 123,
+    "name": "Modesto",
+    "longitude": -120.9968782
+  },
+  {
+    "latitude": 36.0625843,
+    "id": 124,
+    "name": "Fayetteville",
+    "longitude": -94.1574328
+  },
+  {
+    "latitude": 41.7641463,
+    "id": 125,
+    "name": "Hartford",
+    "longitude": -72.6822578
+  },
+  {
+    "latitude": 47.6588603,
+    "id": 126,
+    "name": "Spokane",
+    "longitude": -117.4247134
+  },
+  {
+    "latitude": 47.0414804,
+    "id": 127,
+    "name": "Olympia",
+    "longitude": -122.891333
+  },
+  {
+    "latitude": 33.5206824,
+    "id": 128,
+    "name": "Birmingham",
+    "longitude": -86.8024326
+  },
+  {
+    "latitude": 58.3019496,
+    "id": 129,
+    "name": "Juneau",
+    "longitude": -134.419734
+  },
+  {
+    "latitude": 34.7998143,
+    "id": 130,
+    "name": "Florence",
+    "longitude": -87.6772558
+  },
+  {
+    "latitude": 45.560485,
+    "id": 70,
+    "name": "Portland",
+    "longitude": -122.54907
+  },
+  {
+    "latitude": 40.818037,
+    "id": 110,
+    "name": "Lincoln",
+    "longitude": -96.60936
+  }
+]
